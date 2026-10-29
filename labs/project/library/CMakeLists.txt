@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.10)
 project(Library)
 
 set(SOURCE_FILES
+        include/Container.h
+        src/Container.cpp
         include/Student.h
         src/Student.cpp
 )
